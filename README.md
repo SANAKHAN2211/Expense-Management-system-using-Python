@@ -202,19 +202,17 @@ streamlit run main.py
 
 ---
 
-## API Overview
+## 🚀 API Endpoints
 
-> Base URL: `http://127.0.0.1:8000`
+| Method | Path                     | Description                         |
+|--------|--------------------------|-------------------------------------|
+| GET    | `/expenses/{expense_date}` | Get expenses for a specific date     |
+| POST   | `/expenses/{expense_date}` | Add or update an expense             |
+| POST   | `/analytics/`            | Get category-wise expense analytics |
+| GET    | `/monthly_summary/`      | Get monthly expense summary         |
 
-| Method | Path                 | Description                                    |
-| ------ | -------------------- | ---------------------------------------------- |
-| GET    | `/health`            | Health check                                   |
-| GET    | `/expenses`          | List expenses with filters & pagination        |
-| POST   | `/expenses`          | Create a new expense                           |
-| PUT    | `/expenses/{id}`     | Update an expense                              |
-| DELETE | `/expenses/{id}`     | Delete an expense                              |
-| GET    | `/insights/category` | Totals & percentages by category in date range |
-| GET    | `/insights/monthly`  | Monthly totals by category & year              |
+---
+
 
 **Query params examples**
 
