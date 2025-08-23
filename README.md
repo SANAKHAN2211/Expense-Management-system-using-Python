@@ -1,5 +1,4 @@
 # Expense-Management-system-using-Python
-# Personal Finance Tracker
 
 A full‑stack web application to simplify expense tracking, management, and analysis. With a clean Streamlit UI, FastAPI backend, and MySQL storage, it helps you stay on top of your spending with confidence.
 
