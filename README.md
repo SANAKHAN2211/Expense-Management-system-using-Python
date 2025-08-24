@@ -3,7 +3,8 @@
 A full‑stack web application to simplify expense tracking, management, and analysis. With a clean Streamlit UI, FastAPI backend, and MySQL storage, it helps you stay on top of your spending with confidence.
 
 <p align="center">
-  <img src="assets/cover.png" alt="Expense-Management-system – cover" width="800"/>
+  <img width="1920" height="1080" alt="Untitled design (7)" src="https://github.com/user-attachments/assets/45c77f21-03bf-427a-8f28-a6a5a4c060fb" />
+
 </p>
 
 ---
@@ -55,7 +56,7 @@ A full‑stack web application to simplify expense tracking, management, and ana
 * **ORM/Driver**: `mysql-connector-python` 
 * **Charts**: Streamlit 
 
-> *Why FastAPI?* Auto-generated docs (Swagger & ReDoc), type hints, and async-ready performance.
+
 
 ---
 
@@ -67,7 +68,7 @@ A full‑stack web application to simplify expense tracking, management, and ana
 * **Demo Video**
   ▶️ Watch here: **[Demo Video](https://your-demo-link.example)**
 
-> Replace image paths and the demo link with your own.
+
 
 ---
 
