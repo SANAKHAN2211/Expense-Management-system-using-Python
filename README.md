@@ -208,35 +208,14 @@ streamlit run main.py
 |--------|--------------------------|-------------------------------------|
 | GET    | `/expenses/{expense_date}` | Get expenses for a specific date     |
 | POST   | `/expenses/{expense_date}` | Add or update an expense             |
-| POST   | `/analytics/`            | Get category-wise expense analytics |
-| GET    | `/monthly_summary/`      | Get monthly expense summary         |
+| POST   | `/analytics/`              | Get category-wise expense analytics |
+| GET    | `/monthly_summary/`        | Get monthly expense summary         |
 
 ---
 
 
-**Query params examples**
 
-```http
-GET /expenses?date=2024-08-05&page=1&page_size=5
-GET /insights/category?start_date=2024-08-01&end_date=2024-08-31
-GET /insights/monthly?year=2024&categories=Food,Shopping
-```
 
-**Response shape (example)**
-
-```json
-{
-  "data": [
-    {"id": 1, "date": "2024-08-05", "category": "Food", "item": "Lunch", "amount": 250.00, "notes": "-"}
-  ],
-  "page": 1,
-  "page_size": 5,
-  "total": 23,
-  "total_pages": 5
-}
-```
-
----
 
 ## Data Model
 
