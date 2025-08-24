@@ -61,9 +61,8 @@ A full‑stack web application to simplify expense tracking, management, and ana
 
 ## Screens & Demo
 
-* **My Streamlit App** <img src="assets/screen-main.png" width="800" alt="Streamlit main screen"/>
+* **My Streamlit App** <img width="805" height="637" alt="Screenshot 2025-08-24 102625" src="https://github.com/user-attachments/assets/eabc23c1-cb3a-462c-87a3-a111d7ca451e" />
 
-* **Project Structure** <img src="assets/screen-structure.png" width="800" alt="Project structure"/>
 
 * **Demo Video**
   ▶️ Watch here: **[Demo Video](https://your-demo-link.example)**
