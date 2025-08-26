@@ -1,0 +1,32 @@
+import streamlit as st
+from datetime import datetime
+import requests
+from fontTools.misc.plistlib import end_date
+import pandas as pd
+
+API_URL=  "http://localhost:8000"
+
+
+def analytics_by_months():
+    response = requests.get(f"{API_URL}/monthly_summary/")
+    response = response.json()
+    if not response:
+        st.warning("No monthly data found!")
+        return
+    st.header("Expense Breakdown by Months")
+    df = pd.DataFrame(response)
+
+    df_sorted = df.sort_values("total", ascending=False)
+
+
+    # Chart banane ke liye month_name ka use
+    st.bar_chart(
+        data=df_sorted.set_index("month_name"),
+        use_container_width=True
+    )
+
+    # Format total value
+    df_sorted["total"] = df_sorted["total"].map("{:.2f}".format)
+
+    # Table show karna
+    st.dataframe(df_sorted, hide_index=True)
