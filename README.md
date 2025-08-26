@@ -66,7 +66,8 @@ A full‑stack web application to simplify expense tracking, management, and ana
 
 
 * **Demo Video**
-  ▶️ Watch here: **[Demo Video]((https://youtu.be/Tn9ssq1be9k))**
+   ▶️ Watch here: **[Demo Video](https://youtu.be/Tn9ssq1be9k)**
+
 
 
 
