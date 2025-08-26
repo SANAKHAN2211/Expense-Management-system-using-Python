@@ -1,5 +1,5 @@
 import streamlit as st
-from add_update_ui import add_update_tab
+from Frontend.add_update_ui import add_update_tab
 from Frontend.analytics_category import analytics_by_category
 from Frontend.analytics_months import analytics_by_months
 
